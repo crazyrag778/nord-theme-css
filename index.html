@@ -1,89 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nord Theme CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet"
-          href="https://crazyrag778.github.io/nord-theme-css/palettes/nord-main.css">
+<title>Nord Theme CSS</title>
 
-    <style>
-        body {
-            background: var(--nord0);
-            color: var(--nord6);
-            font-family: sans-serif;
-            max-width: 900px;
-            margin: auto;
-            padding: 2rem;
-            line-height: 1.6;
-        }
+<!-- Nord Palette Library (ONLY dependency) -->
+<link rel="stylesheet"
+href="https://crazyrag778.github.io/nord-theme-css/palettes/nord-main.css">
 
-        section {
-            background: var(--nord1);
-            padding: 1.5rem;
-            margin-bottom: 1rem;
-            border-radius: 8px;
-        }
+<style>
+/* =========================
+   Base Layout (uses Nord ONLY)
+   ========================= */
 
-        h1, h2 {
-            color: var(--nord8);
-        }
+body {
+    background: var(--nord0);
+    color: var(--nord6);
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
+}
 
-        pre {
-            background: var(--nord2);
-            padding: 1rem;
-            overflow-x: auto;
-            border-radius: 6px;
-        }
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
 
-        code {
-            color: var(--nord13);
-        }
+/* =========================
+   Sections
+   ========================= */
 
-        a {
-            color: var(--nord8);
-        }
+.section {
+    background: var(--nord1);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+    border: 1px solid var(--nord3);
+}
 
-        .palette {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 10px;
-        }
+/* =========================
+   Hero
+   ========================= */
 
-        .swatch {
-            padding: 1rem;
-            border-radius: 6px;
-            text-align: center;
-            font-weight: bold;
-        }
+.hero {
+    background: linear-gradient(135deg, var(--nord1), var(--nord2));
+    padding: 3rem 2rem;
+    border-radius: 12px;
+    border: 1px solid var(--nord3);
+    text-align: center;
+}
 
-        footer {
-            text-align: center;
-            margin-top: 2rem;
-            color: var(--nord4);
-        }
-    </style>
+.hero h1 {
+    color: var(--nord8);
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    color: var(--nord4);
+}
+
+/* =========================
+   Typography
+   ========================= */
+
+h2 {
+    color: var(--nord8);
+}
+
+p {
+    color: var(--nord5);
+}
+
+/* =========================
+   Code
+   ========================= */
+
+pre {
+    background: var(--nord2);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid var(--nord3);
+}
+
+code {
+    color: var(--nord13);
+}
+
+/* =========================
+   Buttons
+   ========================= */
+
+.button {
+    display: inline-block;
+    padding: 10px 16px;
+    background: var(--nord8);
+    color: var(--nord0);
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: var(--nord7);
+}
+
+/* =========================
+   Palette Grid
+   ========================= */
+
+.palette {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.swatch {
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid var(--nord3);
+}
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    color: var(--nord4);
+    border-top: 1px solid var(--nord3);
+}
+
+/* =========================
+   Accent helpers (ONLY Nord-based)
+   ========================= */
+
+.accent { color: var(--nord8); }
+.muted { color: var(--nord4); }
+
+</style>
 </head>
+
 <body>
 
-<h1>Nord Theme CSS</h1>
+<div class="container">
 
-<p>
-A lightweight CSS implementation of the Nord colour palette.
-</p>
+<!-- ================= HERO ================= -->
+<div class="hero">
+    <h1>Nord Theme CSS</h1>
+    <p>
+        A lightweight CSS implementation of the Nord color system.
+        Fully powered by <code>nord-main.css</code>.
+    </p>
 
-<section>
-    <h2>CDN Usage</h2>
+    <a class="button"
+       href="https://github.com/CrazyRag778/nord-theme-css">
+        View GitHub Repo
+    </a>
+</div>
+
+<!-- ================= nord-main.css ================= -->
+<div class="section">
+<h2>nord-main.css</h2>
 
 <pre><code>&lt;link rel="stylesheet"
 href="https://crazyrag778.github.io/nord-theme-css/palettes/nord-main.css"&gt;
 </code></pre>
+</div>
 
-</section>
+<!-- ================= W3-Nord-Theme ================= -->
 
-<section>
-    <h2>Example</h2>
+<div class="section">
+<h2>W3 CSS Nord Theme Support</h2>
+
+<pre><code>&lt;link rel="stylesheet"
+href="https://crazyrag778.github.io/nord-theme-css/w3css/w3-nord-theme.css/"&gt;
+</code></pre>
+</div>
+
+<!-- ================= USAGE ================= -->
+<div class="section">
+<h2>Usage</h2>
 
 <pre><code>body {
     background: var(--nord0);
@@ -92,123 +196,58 @@ href="https://crazyrag778.github.io/nord-theme-css/palettes/nord-main.css"&gt;
 
 .button {
     background: var(--nord8);
-}
-</code></pre>
+}</code></pre>
 
-</section>
+</div>
 
-<section>
-    <h2>Palette Demo</h2>
+<!-- ================= PALETTE ================= -->
+<div class="section">
+<h2>Nord Palette</h2>
 
-    <div class="palette">
+<div class="palette">
 
-        <div class="swatch" style="background:var(--nord0);color:var(--nord6);">
-            nord0
-        </div>
+<div class="swatch" style="background:var(--nord0);color:var(--nord6)">nord0</div>
+<div class="swatch" style="background:var(--nord1);color:var(--nord6)">nord1</div>
+<div class="swatch" style="background:var(--nord2);color:var(--nord6)">nord2</div>
+<div class="swatch" style="background:var(--nord3);color:var(--nord6)">nord3</div>
 
-        <div class="swatch" style="background:var(--nord1);color:var(--nord6);">
-            nord1
-        </div>
+<div class="swatch" style="background:var(--nord4);color:var(--nord0)">nord4</div>
+<div class="swatch" style="background:var(--nord5);color:var(--nord0)">nord5</div>
+<div class="swatch" style="background:var(--nord6);color:var(--nord0)">nord6</div>
 
-        <div class="swatch" style="background:var(--nord2);color:var(--nord6);">
-            nord2
-        </div>
+<div class="swatch" style="background:var(--nord7);color:var(--nord0)">nord7</div>
+<div class="swatch" style="background:var(--nord8);color:var(--nord0)">nord8</div>
+<div class="swatch" style="background:var(--nord9);color:var(--nord6)">nord9</div>
+<div class="swatch" style="background:var(--nord10);color:var(--nord6)">nord10</div>
 
-        <div class="swatch" style="background:var(--nord3);color:var(--nord6);">
-            nord3
-        </div>
+<div class="swatch" style="background:var(--nord11);color:var(--nord6)">nord11</div>
+<div class="swatch" style="background:var(--nord12);color:var(--nord0)">nord12</div>
+<div class="swatch" style="background:var(--nord13);color:var(--nord0)">nord13</div>
+<div class="swatch" style="background:var(--nord14);color:var(--nord0)">nord14</div>
+<div class="swatch" style="background:var(--nord15);color:var(--nord6)">nord15</div>
 
-        <div class="swatch" style="background:var(--nord4);color:var(--nord0);">
-            nord4
-        </div>
+</div>
 
-        <div class="swatch" style="background:var(--nord5);color:var(--nord0);">
-            nord5
-        </div>
+</div>
 
-        <div class="swatch" style="background:var(--nord6);color:var(--nord0);">
-            nord6
-        </div>
+<!-- ================= REPO ================= -->
+<div class="section">
+<h2>Repository</h2>
+<p>
+GitHub:
+<a class="accent"
+href="https://github.com/CrazyRag778/nord-theme-css">
+CrazyRag778/nord-theme-css
+</a>
+</p>
+</div>
 
-        <div class="swatch" style="background:var(--nord7);color:var(--nord0);">
-            nord7
-        </div>
-
-        <div class="swatch" style="background:var(--nord8);color:var(--nord0);">
-            nord8
-        </div>
-
-        <div class="swatch" style="background:var(--nord9);color:var(--nord6);">
-            nord9
-        </div>
-
-        <div class="swatch" style="background:var(--nord10);color:var(--nord6);">
-            nord10
-        </div>
-
-        <div class="swatch" style="background:var(--nord11);color:var(--nord6);">
-            nord11
-        </div>
-
-        <div class="swatch" style="background:var(--nord12);color:var(--nord0);">
-            nord12
-        </div>
-
-        <div class="swatch" style="background:var(--nord13);color:var(--nord0);">
-            nord13
-        </div>
-
-        <div class="swatch" style="background:var(--nord14);color:var(--nord0);">
-            nord14
-        </div>
-
-        <div class="swatch" style="background:var(--nord15);color:var(--nord6);">
-            nord15
-        </div>
-
-    </div>
-
-</section>
-
-<section>
-    <h2>Repository</h2>
-
-    <p>
-        GitHub:
-        <a href="https://github.com/CrazyRag778/nord-theme-css">
-            CrazyRag778/nord-theme-css
-        </a>
-    </p>
-
-</section>
-
-<section>
-    <h2>Project Status</h2>
-
-    <p>
-        This is a live repository and active development is currently in progress.
-    </p>
-
-    <p>
-        New palettes, improvements, documentation updates, and community contributions are welcome.
-    </p>
-
-</section>
-
-<section>
-    <h2>Contributing</h2>
-
-    <p>
-        Anyone is free to contribute by opening issues,
-        submitting pull requests, suggesting new palettes,
-        or improving documentation.
-    </p>
-
-</section>
-
+<!-- ================= FOOTER ================= -->
 <footer>
-    Nord Theme CSS • Made by Dibyojit Datta
+Nord Theme CSS • Made by Dibyojit Datta
 </footer>
+
+</div>
 
 </body>
 </html>
