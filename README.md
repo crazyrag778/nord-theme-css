@@ -110,4 +110,4 @@ All contributors are welcome regardless of experience level.
 
 Created and maintained by Dibyojit Datta (CrazyRag778)
 
-GitHub: https://github.com/CrazyRag778
+Website: https://crazyrag778.github.io/nord-theme-css/
