@@ -1,13 +1,13 @@
-# 🌌 Nord Theme CSS
+# Nord Theme CSS
 
 A lightweight CSS implementation of the **Nord colour palette** for modern web projects, extended with a **W3.CSS-compatible theme system**.
 
 This project now provides:
 
-- 🎨 Nord design tokens (`nord0`–`nord15`)
-- 🧩 W3.CSS-compatible theme utilities (`w3-nord-*`)
-- 🧱 UI component system (buttons, cards, alerts, layout helpers)
-- ⚡ Zero-dependency CSS framework layer
+- Nord design tokens (`nord0`–`nord15`)
+- W3.CSS-compatible theme utilities (`w3-nord-*`)
+- UI component system (buttons, cards, alerts, layout helpers)
+- Zero-dependency CSS framework layer
 
 It is designed for:
 - UI libraries
@@ -18,34 +18,34 @@ It is designed for:
 
 ---
 
-## ✨ Features
+## Features
 
-### 🎨 Core Palette System
+### Core Palette System
 - Complete Nord palette (`nord0`–`nord15`)
 - CSS variable-based architecture
 - Easy theming for any project
 
-### 🧩 W3.CSS Theme Support
+### W3.CSS Theme Support
 - `w3-nord-theme-*` utility classes
 - Compatible with W3.CSS structure
 - Drop-in replacement theme layer
 - Extended button, card, text, and border utilities
 
-### 🧱 UI System (W3-Nord Layer)
+### UI System (W3-Nord Layer)
 - Buttons (`w3-nord-btn-*`)
 - Cards (`w3-card` enhanced)
 - Alerts system
 - Navbar + sidebar components
 - Layout utilities (flex, spacing, radius)
 
-### ⚡ Developer Friendly
+### Developer Friendly
 - No build tools required
 - CDN ready
 - Works with plain HTML or frameworks
 
 ---
 
-## 🚀 Installation
+## CDN
 
 ### 1. Nord Core Palette (Required)
 
@@ -63,13 +63,13 @@ It is designed for:
       href="https://crazyrag778.github.io/nord-theme-css/w3css/w3-nord-theme.css/">
 ```
 
-> ⚠️ Load W3-Nord AFTER W3.CSS if you are using W3.CSS.
+> Load W3-Nord AFTER W3.CSS if you are using W3.CSS.
 
 ---
 
-## 🧪 Usage
+## Usage
 
-### 🎨 Core Nord Usage
+### Core Nord Usage
 
 ```css
 body {
@@ -90,7 +90,7 @@ body {
 
 ---
 
-### 🧩 W3-Nord Theme Usage
+### W3-Nord Theme Usage
 
 ```html
 <div class="w3-nord-theme">
@@ -108,9 +108,9 @@ body {
 
 ---
 
-## 🎨 Color System Overview
+## Color System Overview
 
-### 🌑 Polar Night
+### Polar Night
 
 | Variable  | HEX       | Usage |
 |-----------|-----------|------|
@@ -121,7 +121,7 @@ body {
 
 ---
 
-### ❄️ Snow Storm
+### Snow Storm
 
 | Variable  | HEX       | Usage |
 |-----------|-----------|------|
@@ -131,7 +131,7 @@ body {
 
 ---
 
-### 🌬️ Frost
+### Frost
 
 | Variable   | HEX       | Usage |
 |------------|-----------|------|
@@ -142,7 +142,7 @@ body {
 
 ---
 
-### 🔥 Aurora
+### Aurora
 
 | Variable   | HEX       | Usage |
 |------------|-----------|------|
@@ -154,7 +154,7 @@ body {
 
 ---
 
-## 🧱 W3-Nord UI Components
+## W3-Nord UI Components
 
 ### Buttons
 
@@ -197,21 +197,21 @@ body {
 
 ---
 
-## 📦 Compatibility
+## Compatibility
 
 Works with:
 
-- ✅ W3.CSS
-- ✅ Plain HTML/CSS
-- ✅ React / Vue / Svelte
-- ✅ Static websites
-- ✅ UI dashboards
+- W3.CSS
+- Plain HTML/CSS
+- React / Vue / Svelte
+- Static websites
+- UI dashboards
 
 ---
 
-## 📊 Project Status
+## Project Status
 
-> ⚠️ Active Development
+> Active Development
 
 This project is evolving into a full design system.
 
@@ -224,7 +224,7 @@ Planned improvements include:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome.
 
@@ -237,18 +237,18 @@ You can help by:
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
-- 🌗 Dark/Light Nord variants
-- 🧩 Full W3 component library expansion
-- 🌐 Documentation website
-- ⚙️ JS plugin helpers (modal/sidebar control)
-- 📦 Versioned releases (v1.0+)
+- Dark/Light Nord variants
+- Full W3 component library expansion
+- Documentation website
+- JS plugin helpers (modal/sidebar control)
+- Versioned releases (v1.0+)
 
 ---
 
-## 👤 Author
+## Author
 
 Created and maintained by **Dibyojit Datta (CrazyRag778)**
 
-🌐 Website: https://crazyrag778.github.io/nord-theme-css/
+Website: https://crazyrag778.github.io/nord-theme-css/
