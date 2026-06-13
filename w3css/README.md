@@ -16,7 +16,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## Installation
+## CDN
 
 ### Option 1: Direct Usage (Recommended)
 
