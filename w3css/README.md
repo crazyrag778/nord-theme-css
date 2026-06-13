@@ -1,22 +1,22 @@
-# 🌌 W3-Nord UI Framework
+# W3-Nord UI Framework
 
 A Nord-inspired design system built on top of W3.CSS conventions, providing a complete utility + component library with consistent theming, full Nord palette usage (0–15), and W3-compatible class structure.
 
 ---
 
-## 📦 Features
+## Features
 
-- 🎨 Full Nord palette (nord0–nord15) utilization
-- 🧩 W3.CSS-compatible class system
-- 🧱 Prebuilt UI components (buttons, cards, navbar, modal, sidebar, alerts)
-- ⚡ Utility-first helpers (spacing, flex, radius, shadows)
-- 🌗 Clean semantic color system
-- 📱 Responsive-ready structure
-- 🔌 Drop-in CSS file (no build tools required)
+- Full Nord palette (nord0–nord15) utilization
+- W3.CSS-compatible class system
+- Prebuilt UI components (buttons, cards, navbar, modal, sidebar, alerts)
+- Utility-first helpers (spacing, flex, radius, shadows)
+- Clean semantic color system
+- Responsive-ready structure
+- Drop-in CSS file (no build tools required)
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Option 1: Direct Usage (Recommended)
 
@@ -31,11 +31,11 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 <link rel="stylesheet" href="https://crazyrag778.github.io/nord-theme-css/w3css/w3-nord-theme.css/">
 ```
 
-> ⚠️ Always load `w3-nord-ui.css` AFTER W3.CSS to override styles correctly.
+> Always load `w3-nord-ui.css` AFTER W3.CSS to override styles correctly.
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 | Role | Nord Color |
 |------|------------|
@@ -55,7 +55,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🧱 Core Usage
+## Core Usage
 
 ### Base Theme
 
@@ -67,7 +67,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🎨 Text Utilities
+## Text Utilities
 
 ```html
 <p class="w3-nord-text">Primary text</p>
@@ -82,7 +82,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🧱 Buttons
+## Buttons
 
 ```html
 <button class="w3-button">Default</button>
@@ -99,7 +99,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🧱 Cards
+## Cards
 
 ```html
 <div class="w3-card">
@@ -122,7 +122,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🔔 Alerts
+## Alerts
 
 ```html
 <div class="w3-nord-alert w3-nord-alert-info">Info alert message</div>
@@ -134,7 +134,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🧭 Navbar
+## Navbar
 
 ```html
 <div class="w3-nord-navbar">
@@ -145,7 +145,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 📦 Sidebar
+## Sidebar
 
 ```html
 <div class="w3-nord-sidebar">
@@ -155,7 +155,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🪟 Modal
+## Modal
 
 ```html
 <div class="w3-nord-modal" style="display:flex;">
@@ -168,7 +168,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 📐 Layout Utilities
+## Layout Utilities
 
 ### Flex
 
@@ -189,7 +189,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 📏 Spacing Utilities
+## Spacing Utilities
 
 ```html
 <div class="w3-nord-m-1">Margin 1</div>
@@ -203,7 +203,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🟦 Borders & Radius
+## Borders & Radius
 
 ```html
 <div class="w3-nord-border w3-nord-rounded-md">
@@ -213,7 +213,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🌈 Gradients
+## Gradients
 
 ```html
 <div class="w3-nord-gradient-primary">Primary gradient</div>
@@ -224,7 +224,7 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 🎯 Best Practices
+## Best Practices
 
 - Always use `w3-nord-*` classes instead of raw Nord variables
 - Load CSS after W3.CSS
@@ -233,15 +233,6 @@ A Nord-inspired design system built on top of W3.CSS conventions, providing a co
 
 ---
 
-## 📜 License
-
-Free to use and modify.
-
----
-
-## 🚀 Future Plans
-
-- Dark/light Nord mode switch
 - JS modal + sidebar controller
 - CDN via GitHub Pages
 - Component expansion (tabs, dropdowns, tooltips)
