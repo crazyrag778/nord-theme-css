@@ -1,25 +1,75 @@
-# Nord Theme CSS
+# 🌌 Nord Theme CSS
 
-A lightweight CSS implementation of the Nord colour palette for web projects.
+A lightweight CSS implementation of the **Nord colour palette** for modern web projects, extended with a **W3.CSS-compatible theme system**.
 
-This project provides the complete Nord colour palette as CSS custom properties (CSS variables), making it easy to build Nord-themed websites, applications, and design systems.
+This project now provides:
 
-## Features
+- 🎨 Nord design tokens (`nord0`–`nord15`)
+- 🧩 W3.CSS-compatible theme utilities (`w3-nord-*`)
+- 🧱 UI component system (buttons, cards, alerts, layout helpers)
+- ⚡ Zero-dependency CSS framework layer
 
-- Complete Nord palette (`nord0` to `nord15`)
-- CSS variable-based
-- Lightweight and dependency-free
-- Easy integration with existing projects
-- Suitable for personal and production use
+It is designed for:
+- UI libraries
+- dashboards
+- static sites
+- design systems
+- W3.CSS-based projects
 
-## CDN
+---
+
+## ✨ Features
+
+### 🎨 Core Palette System
+- Complete Nord palette (`nord0`–`nord15`)
+- CSS variable-based architecture
+- Easy theming for any project
+
+### 🧩 W3.CSS Theme Support
+- `w3-nord-theme-*` utility classes
+- Compatible with W3.CSS structure
+- Drop-in replacement theme layer
+- Extended button, card, text, and border utilities
+
+### 🧱 UI System (W3-Nord Layer)
+- Buttons (`w3-nord-btn-*`)
+- Cards (`w3-card` enhanced)
+- Alerts system
+- Navbar + sidebar components
+- Layout utilities (flex, spacing, radius)
+
+### ⚡ Developer Friendly
+- No build tools required
+- CDN ready
+- Works with plain HTML or frameworks
+
+---
+
+## 🚀 Installation
+
+### 1. Nord Core Palette (Required)
 
 ```html
 <link rel="stylesheet"
       href="https://crazyrag778.github.io/nord-theme-css/palettes/nord-main.css">
 ```
 
-## Usage
+---
+
+### 2. W3-Nord Theme System (Optional but recommended)
+
+```html
+<link rel="stylesheet"
+      href="https://crazyrag778.github.io/nord-theme-css/w3css/w3-nord-theme.css/">
+```
+
+> ⚠️ Load W3-Nord AFTER W3.CSS if you are using W3.CSS.
+
+---
+
+## 🧪 Usage
+
+### 🎨 Core Nord Usage
 
 ```css
 body {
@@ -38,76 +88,167 @@ body {
 }
 ```
 
-## Available Colors
+---
 
-### Polar Night
+### 🧩 W3-Nord Theme Usage
 
-| Variable  | HEX       |
-|-----------|-----------|
-| `--nord0` | `#2e3440` |
-| `--nord1` | `#3b4252` |
-| `--nord2` | `#434c5e` |
-| `--nord3` | `#4c566a` |
+```html
+<div class="w3-nord-theme">
+    Primary themed container
+</div>
 
-### Snow Storm
+<p class="w3-nord-text-accent">
+    Accent text using Nord theme system
+</p>
 
-| Variable  | HEX       |
-|-----------|-----------|
-| `--nord4` | `#d8dee9` |
-| `--nord5` | `#e5e9f0` |
-| `--nord6` | `#eceff4` |
+<button class="w3-nord-btn w3-nord-btn-primary">
+    Primary Button
+</button>
+```
 
-### Frost
+---
 
-| Variable   | HEX       |
-|------------|-----------|
-| `--nord7`  | `#8fbcbb` |
-| `--nord8`  | `#88c0d0` |
-| `--nord9`  | `#81a1c1` |
-| `--nord10` | `#5e81ac` |
+## 🎨 Color System Overview
 
-### Aurora
+### 🌑 Polar Night
 
-| Variable   | HEX       |
-|------------|-----------|
-| `--nord11` | `#bf616a` |
-| `--nord12` | `#d08770` |
-| `--nord13` | `#ebcb8b` |
-| `--nord14` | `#a3be8c` |
-| `--nord15` | `#b48ead` |
+| Variable  | HEX       | Usage |
+|-----------|-----------|------|
+| `--nord0` | `#2e3440` | Background |
+| `--nord1` | `#3b4252` | Surface |
+| `--nord2` | `#434c5e` | Elevated surface |
+| `--nord3` | `#4c566a` | Borders |
 
-## Project Status
+---
 
-> ⚠️ This is a live repository and active development is currently in progress.
+### ❄️ Snow Storm
 
-The project is being actively developed and improved. New palettes, documentation improvements, and additional features may be added over time.
+| Variable  | HEX       | Usage |
+|-----------|-----------|------|
+| `--nord4` | `#d8dee9` | Muted text |
+| `--nord5` | `#e5e9f0` | Secondary text |
+| `--nord6` | `#eceff4` | Primary text |
 
-## Contributing
+---
+
+### 🌬️ Frost
+
+| Variable   | HEX       | Usage |
+|------------|-----------|------|
+| `--nord7`  | `#8fbcbb` | Info |
+| `--nord8`  | `#88c0d0` | Accent |
+| `--nord9`  | `#81a1c1` | Secondary |
+| `--nord10` | `#5e81ac` | Primary |
+
+---
+
+### 🔥 Aurora
+
+| Variable   | HEX       | Usage |
+|------------|-----------|------|
+| `--nord11` | `#bf616a` | Error |
+| `--nord12` | `#d08770` | Warning |
+| `--nord13` | `#ebcb8b` | Caution |
+| `--nord14` | `#a3be8c` | Success |
+| `--nord15` | `#b48ead` | Special |
+
+---
+
+## 🧱 W3-Nord UI Components
+
+### Buttons
+
+```html
+<button class="w3-nord-btn w3-nord-btn-primary">Primary</button>
+<button class="w3-nord-btn w3-nord-btn-success">Success</button>
+<button class="w3-nord-btn w3-nord-btn-error">Error</button>
+```
+
+---
+
+### Cards
+
+```html
+<div class="w3-card">
+    Nord styled card using W3 system
+</div>
+```
+
+---
+
+### Alerts
+
+```html
+<div class="w3-nord-alert w3-nord-alert-warning">
+    Warning message
+</div>
+```
+
+---
+
+### Layout Utilities
+
+```html
+<div class="w3-nord-flex w3-nord-between">
+    <div>Left</div>
+    <div>Right</div>
+</div>
+```
+
+---
+
+## 📦 Compatibility
+
+Works with:
+
+- ✅ W3.CSS
+- ✅ Plain HTML/CSS
+- ✅ React / Vue / Svelte
+- ✅ Static websites
+- ✅ UI dashboards
+
+---
+
+## 📊 Project Status
+
+> ⚠️ Active Development
+
+This project is evolving into a full design system.
+
+Planned improvements include:
+- Component expansion
+- Dark/light theme switching
+- Better W3 integration layer
+- Documentation site
+- CDN optimization
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome.
 
-Whether you want to:
+You can help by:
+- Improving W3 theme support
+- Adding UI components
+- Fixing bugs
+- Suggesting design improvements
+- Expanding documentation
 
-- Add new colour palettes
-- Improve documentation
-- Fix bugs
-- Improve code quality
-- Suggest new features
+---
 
-Feel free to open an issue or submit a pull request.
+## 🗺️ Roadmap
 
-All contributors are welcome regardless of experience level.
+- 🌗 Dark/Light Nord variants
+- 🧩 Full W3 component library expansion
+- 🌐 Documentation website
+- ⚙️ JS plugin helpers (modal/sidebar control)
+- 📦 Versioned releases (v1.0+)
 
-## Roadmap
+---
 
-- Additional theme palettes
-- Better documentation
-- Theme previews
-- Examples and templates
-- Community contributions
+## 👤 Author
 
-## Author
+Created and maintained by **Dibyojit Datta (CrazyRag778)**
 
-Created and maintained by Dibyojit Datta (CrazyRag778)
-
-Website: https://crazyrag778.github.io/nord-theme-css/
+🌐 Website: https://crazyrag778.github.io/nord-theme-css/
