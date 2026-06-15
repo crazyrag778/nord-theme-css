@@ -59,8 +59,7 @@ It is designed for:
 ### 2. W3-Nord Theme System (Optional but recommended)
 
 ```html
-<link rel="stylesheet"
-      href="https://crazyrag778.github.io/nord-theme-css/w3css/w3-nord-theme.css/">
+Refer to WEBSITE
 ```
 
 > Load W3-Nord AFTER W3.CSS if you are using W3.CSS.
