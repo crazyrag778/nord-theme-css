@@ -87,26 +87,6 @@ body {
 }
 ```
 
----
-
-### W3-Nord Theme Usage
-
-```html
-<div class="w3-nord-theme">
-    Primary themed container
-</div>
-
-<p class="w3-nord-text-accent">
-    Accent text using Nord theme system
-</p>
-
-<button class="w3-nord-btn w3-nord-btn-primary">
-    Primary Button
-</button>
-```
-
----
-
 ## Color System Overview
 
 ### Polar Night
@@ -150,49 +130,6 @@ body {
 | `--nord13` | `#ebcb8b` | Caution |
 | `--nord14` | `#a3be8c` | Success |
 | `--nord15` | `#b48ead` | Special |
-
----
-
-## W3-Nord UI Components
-
-### Buttons
-
-```html
-<button class="w3-nord-btn w3-nord-btn-primary">Primary</button>
-<button class="w3-nord-btn w3-nord-btn-success">Success</button>
-<button class="w3-nord-btn w3-nord-btn-error">Error</button>
-```
-
----
-
-### Cards
-
-```html
-<div class="w3-card">
-    Nord styled card using W3 system
-</div>
-```
-
----
-
-### Alerts
-
-```html
-<div class="w3-nord-alert w3-nord-alert-warning">
-    Warning message
-</div>
-```
-
----
-
-### Layout Utilities
-
-```html
-<div class="w3-nord-flex w3-nord-between">
-    <div>Left</div>
-    <div>Right</div>
-</div>
-```
 
 ---
 
