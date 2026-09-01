@@ -10,7 +10,7 @@ This project now provides:
 - Zero-dependency CSS framework layer
 
 It is designed for:
-- UI libraries
+- Beautiful UIs
 - dashboards
 - static sites
 - design systems
